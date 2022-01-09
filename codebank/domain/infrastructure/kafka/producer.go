@@ -27,4 +27,5 @@ func (k *KafkaProducer) Publish(msg string, topic string) error {
 		return err
 	}
 	return nil
+
 }
